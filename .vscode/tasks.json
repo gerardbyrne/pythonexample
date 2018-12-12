@@ -1,0 +1,16 @@
+{
+	// See http://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "0.1.0",
+	"command": "C:\\Python35-32\\pythonw.exe",
+	"isShellCommand": true,
+	"args": ["app.py"],
+	"showOutput": "always",
+	"problemMatcher": {
+        "fileLocation": ["relative", "${workspaceRoot}"],
+        "pattern": {
+            "regexp": "^(.*)+s$",
+            "message": 1
+        }
+    }
+}
