@@ -18,4 +18,4 @@ while roll_again == "yes" or roll_again == "y":
     elif (dice1Value + dice2Value != 6):
         print("Better luck next roll")
 
-    roll_again = input("Roll the dices again?")
+    #roll_again = input("Roll the dices again?")
